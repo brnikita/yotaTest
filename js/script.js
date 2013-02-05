@@ -13,6 +13,9 @@
                 if(e.target == Y.$ytCurrListSel[0]){
                     var target = $(e.target),
                         val = $('option:selected', target).val();
+                    for(var i = 0; i < Y.config.currencies.length; i++){
+                        if(val == Y.config.currencies[i]) return;
+                    }
                     Y.$ytCurrList.append($('<li>', {title: Y.currencies[val].name})
                         .append($('<span>', {text: val}))
                         .append($('<strong>', {'class': 'yt-curr-del', text: 'x', 'data-curr': val}))
