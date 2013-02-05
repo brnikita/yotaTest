@@ -1,5 +1,6 @@
 <h1><a href="http://yota.soshace.com/">DEMO</a></h1>
 <h2>Тестовое задание по JavaScript.<h2>
+<img src="https://mail-attachment.googleusercontent.com/attachment/u/0/?ui=2&ik=13ac1ca510&view=att&th=13c948d551f824e1&attid=0.1&disp=inline&safe=1&zw&saduie=AG9B_P9-Prjm4WG2GM8-1B8Zm8Pb&sadet=1360103036379&sads=67Nv5O4K4WbGE8BRZcMYxr-7Z2o"/>
 <p>Разработать интерфейс просмотра курса валют за последние три месяца.</p>
 <p>В png-вложении отображена необходимая функциональность:</p>
 <ul>
