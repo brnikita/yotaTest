@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+body{
+    font: 14px/16px Arial;
+    color: #4e4e4e;
+}
+label{
+    cursor: pointer;
+}
+h1, h2, h3, h4, h5{
+    font-weight:normal;
+}
+#yt-page h1{
+    padding-bottom:15px;
+}
+.hide{
+    display:none !important;
+}
+#yt-page{
+    width:860px;
+    padding:20px;
+    border:#000 2px solid;
+    margin: 20px auto 0 auto;
+}
+#yt-cur-rate-f{
+    overflow: hidden;
+}
+#yt-ch-currency{
+    float: left;
+    width:260px;
+    min-height:300px;
+}
+#yt-curr-list{
+    padding-bottom:5px;
+}
+#yt-curr-list li{
+    padding-bottom: 5px;
+    overflow:hidden;
+    width:240px;
+}
+#yt-curr-list li span{
+    float:left;
+}
+.yt-curr-color{
+    width:10px;
+    height:10px;
+    float:right;
+    margin-top: 3px;
+}
+.yt-curr-del{
+    float:right;
+    color:#c60c0c;
+    cursor:pointer;
+    margin-left:185px;
+}
+#yt-curr-list-sel{
+    width:240px;
+}
+
+#yt-cur-info{
+    width:600px;
+   float:left;
+}
+#yt-cur-schedule{
+    border:#000 2px solid;
+}
+.yt-schedule-gag{
+    border:#000 2px solid;
+    font-style: italic;
+    padding:20px;
+}
+#yt-ch-period{
+    padding:10px 0;
+}
+#yt-curr-table{
+
+}
+#yt-curr-table thead{
+    background: #b3b2b2;
+    font-weight:bold;
+    color:#000;
+}
+#yt-curr-table td{
+    padding: 10px 0;
+    text-align: center;
+}

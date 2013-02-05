@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yota test</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div id="yt-page">
+        <h1>Динамика курса валют</h1>
+        <form id="yt-cur-rate-f">
+            <div id="yt-ch-currency">
+                <ul id="yt-curr-list"></ul>
+                <select id="yt-curr-list-sel" name="yt-curr-list-sel">
+                    <option disabled>Выберите валюту</option>
+                </select>
+            </div>
+            <div id="yt-cur-info">
+                <canvas id="yt-cur-schedule" width="596" height="300">
+                    <h2 class="yt-schedule-gag">Здесь должен быть график</h2>
+                </canvas>
+                <div id="yt-ch-period">
+                    <strong>Посмотреть графики за:</strong>
+                    <input type="radio" name="yt-period" value="week" id="yt-week" checked="checked">
+                    <label for="yt-week">неделю</label>
+                    <input type="radio" name="yt-period" value="month" id="yt-month">
+                    <label for="yt-month">месяц</label>
+                    <input type="radio" name="yt-period" value="3months" id="yt-3month">
+                    <label for="yt-3month">3 месяца</label>
+                </div>
+
+                <table width="100%" cellspacing="0" cellpadding="4" border="1" id="yt-curr-table">
+                    <thead>
+                    <tr>
+                        <td>Валюта</td>
+                        <td id="yt-date-tod"></td>
+                        <td id="yt-date-st"></td>
+                        <td>Изменение</td>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
