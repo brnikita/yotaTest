@@ -64,6 +64,7 @@
                 currencies: []
             };
             Y.fillDates();
+            Y.clearTable();
             Y.setConfig({period: 'day'});
             if (Y.$ytCurSchedule[0].getContext){
                 Y.shedule = Y.$ytCurSchedule[0].getContext('2d');
@@ -145,7 +146,6 @@
             Y['3months'].fullLength = Y['month'].fullLength + Y['3months'].dates.length;
         },
         setConfig: function(data){
-            Y.clearTable();
             if(data.period) {
                 if(Y.getDataProgress) return;
                 if(data.period == 'day'){
@@ -170,6 +170,7 @@
                     }
                 }
             }
+            Y.clearTable();
             if(Y.getDataProgress) return;
             if(Y.config.currencies.length){
                 Y.getCurrency().done(function(){
