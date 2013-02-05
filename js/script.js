@@ -163,8 +163,8 @@
                 }else{
                     for(var i = 0; i < Y.config.currencies.length; i++){
                         if(Y.config.currencies[i] == data.currency) {
-                            Y.drawNewSchedules();
                             Y.config.currencies.splice(i, 1);
+                            Y.drawNewSchedules();
                             break;
                         }
                     }
