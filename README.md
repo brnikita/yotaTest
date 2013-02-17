@@ -1,7 +1,7 @@
 <h1><a href="http://yota.soshace.com/">DEMO</a></h1>
 <h2>Тестовое задание по JavaScript.<h2>
 <p>
-<img src="http://yota.soshace.com/img/currency_rate.png"/>
+<img src="https://raw.github.com/brnikita/yotaTest/364404ce1cb9bc68f06d10e85e3e9a82c193a18a/img/currency_rate.png"/>
 Разработать интерфейс просмотра курса валют за последние три месяца.</p>
 <p>В png-вложении отображена необходимая функциональность:</p>
 <ul>
